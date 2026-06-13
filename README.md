@@ -3,14 +3,20 @@
 ## 🚀 How to Run Locally
 
 1. Clone the repository:
-   `git clone https://github.com/yourusername/kareerfinder-ai.git`
-2. Install dependencies:
-   `npm install`
-3. Create a `.env.local` file in the root directory and add Gemini API key:
-   `GEMINI_API_KEY=your_key_here`
-4. Start the development server:
+```
+   git clone https://github.com/yourusername/kareerfinder-ai.git
+```
+3. Install dependencies:
+```
+   npm install
+```
+4. Create a `.env.local` file in the root directory and add Gemini API key:
+```
+   GEMINI_API_KEY=your_key_here
+```
+6. Start the development server:
    `npm run dev`
-5. Open `http://localhost:3000` in your browser.
+7. Open `http://localhost:3000` in your browser.
 
 ## ⚙️ Tech Stack
 
@@ -22,11 +28,13 @@
 ## 📖 Product Explanation
 
 **The Problem**
+
 Filipino youth face an **Exposure Gap** and **Skill Gap** when considering going into the
 tech industry. Many students are highly interested in technology, but are paralyzed by the sheer number of paths available. They lack clarity on which specific tech niches fit
 their personalities and do not know what actionable skills they need to learn to get started.
 
 **The Solution**
+
 **KareerFinder AI** is an interactive, AI-powered web prototype that acts as a personalized tech career counselor. Instead of overwhelming students with massive global roadmaps, the app takes the user's casual tech interests, experience level, and preferred activities, translate them into:
 
 1. Three highly tailored tech roles with a clear reasoning on why they fit.
@@ -40,4 +48,5 @@ their personalities and do not know what actionable skills they need to learn to
 - **Assumptions:** Students have enough baseline self-awareness to describe casual activities they enjoy and recommending free, community-drive resourcecs is the most accessible starting point.
 
 **Future Improvements**
+
 Expand the interactive parameters to include more interest options and add a deeper analysis feature that allows users to click into a recommended role and generate a more comprehensive technical curriculum.
